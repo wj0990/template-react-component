@@ -1,7 +1,6 @@
 import path from 'path';
 import webpack, { Configuration } from 'webpack';
 import { LoaderConfOptions } from 'kkt';
-import WebpackDevServer from 'webpack-dev-server';
 import lessModules from '@kkt/less-modules';
 import rawModules from '@kkt/raw-modules';
 import scopePluginOptions from '@kkt/scope-plugin-options';
