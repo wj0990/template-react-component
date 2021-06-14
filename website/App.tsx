@@ -22,7 +22,7 @@ const getCodeStr = (data: any[] = [], code: string = '') => {
 const App: React.FC = () => {
   return (
     <div className="App">
-      <GitHubCorners fixed href="https://github.com/kktjs/kkt" />
+      <GitHubCorners fixed target="__blank" href="https://github.com/wj0990/template-react-component" />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
