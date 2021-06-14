@@ -32,6 +32,9 @@
       "pre-commit": "lint-staged"
     }
   },
+  "files": [
+    "lib"
+  ],
   "lint-staged": {
     "*.{js,jsx,tsx,ts,less,md,json}": [
       "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\""
