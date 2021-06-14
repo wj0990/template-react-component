@@ -17,7 +17,7 @@ jobs:
         node-version: 14
 
     - name: Look Changelog
-      uses: jaywcjlove/changelog-generator@v1.4.1
+      uses: jaywcjlove/changelog-generator@v1.4.2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         head-ref: ${{steps.create_tag.outputs.version}}
@@ -46,7 +46,7 @@ jobs:
 
     - name: Generate Changelog
       id: changelog
-      uses: jaywcjlove/changelog-generator@v1.4.1
+      uses: jaywcjlove/changelog-generator@v1.4.2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         head-ref: ${{steps.create_tag.outputs.version}}
