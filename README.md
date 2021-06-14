@@ -31,7 +31,13 @@ const Demo = () => {
 ReactDOM.render(<Demo />, _mount_);
 ```
 
-**development**
+## Props
+
+| Property | Description | Type | Default |
+| ---- | ---- | ---- | ---- |
+| size | 按钮大小 | `large`,`default`,`small` | `default` |
+
+## Development
 
 Runs the project in development mode.  
 
